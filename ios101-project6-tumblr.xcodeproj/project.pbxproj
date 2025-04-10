@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5A076CF2DA6CD3800A890D6 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A076CE2DA6CD2400A890D6 /* PostDetailViewController.swift */; };
 		ED54EF4D29D5382800B6AD22 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54EF4C29D5382800B6AD22 /* String+Extensions.swift */; };
 		ED59161029BC307D000F25AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED59160F29BC307D000F25AE /* AppDelegate.swift */; };
 		ED59161229BC307D000F25AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED59161129BC307D000F25AE /* SceneDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5A076CE2DA6CD2400A890D6 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
 		ED54EF4C29D5382800B6AD22 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		ED59160C29BC307D000F25AE /* ios101-project6-tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios101-project6-tumblr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED59160F29BC307D000F25AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		ED59160E29BC307D000F25AE /* ios101-project6-tumblr */ = {
 			isa = PBXGroup;
 			children = (
+				B5A076CE2DA6CD2400A890D6 /* PostDetailViewController.swift */,
 				ED59160F29BC307D000F25AE /* AppDelegate.swift */,
 				ED59161129BC307D000F25AE /* SceneDelegate.swift */,
 				ED59161329BC307D000F25AE /* ViewController.swift */,
@@ -109,7 +112,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					ED59160B29BC307D000F25AE = {
 						CreatedOnToolsVersion = 14.2;
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED59161429BC307D000F25AE /* ViewController.swift in Sources */,
+				B5A076CF2DA6CD3800A890D6 /* PostDetailViewController.swift in Sources */,
 				ED59161029BC307D000F25AE /* AppDelegate.swift in Sources */,
 				ED59161229BC307D000F25AE /* SceneDelegate.swift in Sources */,
 				ED59162429BC4921000F25AE /* Post.swift in Sources */,
@@ -222,6 +226,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -282,6 +287,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

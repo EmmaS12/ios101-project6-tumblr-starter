@@ -3,6 +3,11 @@
 //  ios101-project6-tumblr
 //
 
+//
+//  PostCell.swift
+//  ios101-project6-tumblr
+//
+
 import UIKit
 
 class PostCell: UITableViewCell {
@@ -22,3 +27,4 @@ class PostCell: UITableViewCell {
     }
 
 }
+

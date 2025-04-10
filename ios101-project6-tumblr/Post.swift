@@ -5,6 +5,7 @@
 
 import Foundation
 
+// Blog structure to match the raw JSON response
 struct Blog: Decodable {
     let response: Response
 }
@@ -20,11 +21,9 @@ struct Post: Decodable {
 }
 
 struct Photo: Decodable {
-     let originalSize: PhotoInfo
-
+    let originalSize: PhotoInfo
+    
     enum CodingKeys: String, CodingKey {
-
-        // Maps API key name to a more "swifty" version (i.e. lowerCamelCasing and no `_`)
         case originalSize = "original_size"
     }
 }
@@ -32,3 +31,4 @@ struct Photo: Decodable {
 struct PhotoInfo: Decodable {
     let url: URL
 }
+
